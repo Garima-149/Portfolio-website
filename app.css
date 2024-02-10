@@ -1,0 +1,351 @@
+* {
+    text-decoration: none;
+
+
+}
+
+body {
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 10px;
+    padding: 19px;
+
+}
+
+.me {
+    display: inline-block;
+    border: 2px solid black;
+    width: 50%;
+
+}
+
+.class {
+    display: inline;
+    margin-right: 2rem;
+    margin-top: 8px;
+    border: 2px solid black;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 23px;
+    -webkit-animation: slide-in-right infinite 2s;
+}
+
+.heading {
+    color: cyan;
+}
+
+.h3 {
+    color: white;
+    font-size: 34px;
+    display: inline-block;
+    width: 50%;
+}
+
+li a {
+    margin: 8px;
+    margin-left: 4px;
+}
+
+.navbar {
+    display: inline-block;
+    margin-left: -1rem;
+}
+
+@media (max-width:481px){
+    .navbar li{
+        margin:-31px;
+        padding: 23px;
+        margin-top:-41rem;
+    }
+}
+
+.content {
+    margin-left: 3rem;
+    margin-top: 7rem;
+}
+
+.navbar li a {
+    color: rgb(9, 9, 9);
+    cursor: pointer;
+    background-color: cyan;
+    margin: 2px 13px;
+    border: 2px solid cyan;
+    border-radius: 4px;
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan;
+}
+
+.navbar li a:hover {
+    /*css for links on hovering*/
+    background-color: cyan;
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+
+}
+
+p {
+    display: inline-block;
+    color: white;
+}
+
+footer {
+    border: 2px solid black;
+    background-color: rgb(15, 122, 15);
+    width: 100%;
+    border-radius: 3px;
+    margin-top: 190px;
+    text-align: center;
+    color: white;
+
+}
+
+.social {
+    width: 17px;
+    height: 15px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.btn1 {
+    background-color: rgb(58, 54, 54);
+    cursor: pointer;
+    color: white;
+}
+
+.btn3 {
+    background-color: rgba(77, 222, 54, 0.929);
+    cursor: pointer;
+    color: white;
+    margin-left: 3rem;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.btn3:hover {
+    box-shadow: 0 0 5px rgba(77, 222, 54, 0.929), 0 0 25px rgba(77, 222, 54, 0.929);
+}
+
+a {
+    color: white;
+}
+
+.btn {
+    display: inline-block;
+    margin: 3px;
+    padding: 5px;
+
+    margin-top: 1px;
+    margin-left: 350px;
+
+}
+
+h2 {
+    text-align: center;
+    overflow: hidden;
+    display: inline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    -webkit-animation: visible infinite 5s;
+    color: white;
+}
+
+.h2 {
+    text-align: center;
+    overflow: hidden;
+    display: inline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    -webkit-animation: visible infinite 5s;
+    margin-left: 43rem;
+    color: white;
+}
+.h21{
+    text-align: center;
+    overflow: hidden;
+    display: inline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    -webkit-animation: visible infinite 5s;
+    margin-left: 48rem;
+    color: white;
+}
+@media (max-width:481px) {
+    .content{
+        width:150%;
+        margin-left: 3rem;
+    }
+    .btn3{
+        margin-left:3rem;
+    }
+    footer{
+    width: 160vw;
+    }
+    .class{
+        margin-right: -11rem;
+        padding:51px ;
+    }
+    .btn{
+        margin:-266px;
+        padding: 23px;
+        margin-left:110vw ;
+        margin-top:-181rem;
+    }
+}
+
+.edu {
+    border: 2px solid rgb(24, 23, 23);
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(16, 14, 15);
+    height: 30rem;
+    width: 60rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-block;
+    margin-left: 23rem;
+    -webkit-animation: slide-in 2s;
+    line-height: 1.5;
+    font-size: 19px;
+    transform: all 0.1s ease;
+    cursor: pointer;
+}
+
+.eduu {
+    border: 2px solid rgb(24, 23, 23);
+    border-radius: 5px;
+    background-color: rgb(168, 232, 227);
+    color: rgb(16, 15, 15);
+    height: 30rem;
+    width: 60rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-block;
+    margin-left: 23rem;
+    -webkit-animation: slide-in 2s;
+    line-height: 1.5;
+    font-size: 19px;
+    transform: all 0.1s ease;
+    cursor: pointer;
+}
+
+h3 {
+    margin: 12px;
+}
+
+.name {
+    border: 2px solid black;
+    height: 41rem;
+    width: 60rem;
+    background-color: rgb(52, 150, 52);
+    border-radius: 5px;
+    color: white;
+    margin-left: 23rem;
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 2;
+    -webkit-animation: slide-in 2s;
+    display: inline-block;
+    transform: all 0.1s ease;
+    cursor: pointer;
+}
+
+h1 {
+    overflow: hidden;
+    -webkit-animation: visible infinite 5s;
+    color: white;
+}
+
+.person {
+    border: 2px solid black;
+    border-radius: 4px;
+    box-shadow: 2px 2px white;
+    margin: 23px;
+    margin-left: 45rem;
+
+}
+
+.repo {
+    font-size: 27px;
+    margin-left: 3rem;
+
+}
+
+.repos {
+    font-size: 21px;
+    margin-left: 3rem;
+}
+
+.a {
+    color: blue;
+}
+
+@-webkit-keyframes visible {
+
+    /*webkit for chrome browser users*/
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes slide-in {
+    0% {
+        margin-left: 0rem;
+    }
+
+    100% {
+        margin-left: 23rem;
+    }
+}
+
+@-webkit-keyframes slide-in-right {
+    0% {
+        transform: translateX(-15px);
+    }
+
+    50% {
+        transform: translateX(30px);
+    }
+
+    100% {
+        transform: translateX(-45px);
+    }
+}
+
+div.slideshow {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+}
+
+div.slides {
+    display: inline-block;
+    transition: transform .6s ease-in-out;
+}
+
+img.slide {
+    width: 100%;
+    display: inline-block;
+    height: 40rem;
+    border-radius: 1rem;
+    border-color: #005F41;
+    border-style: solid;
+
+}
+
+.slide.active {
+    display: block;
+}
+
+@keyframes slideAnimation {
+    from {
+        opacity: .4;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
