@@ -121,6 +121,7 @@ footer {
     color: white;
     margin-left: 3rem;
     padding: 5px;
+    display:block;
     border-radius: 5px;
 }
 
