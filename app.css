@@ -327,7 +327,7 @@ div.slides {
 }
 
 img.slide {
-    width: 97%;
+    width: 100%;
     display: inline-block;
     height: 40rem;
     border-radius: 1rem;
