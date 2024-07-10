@@ -79,3 +79,26 @@ function prevSlide() {
 }
 
 setInterval(nextSlide, 2000); // Change slide every 3 seconds
+ 
+      // Function to scroll to the top smoothly
+      function scrollToTop() {
+        window.scrollTo({
+          top: 0,
+          behavior: "instant",
+        });
+      }
+
+      // Add an event listener to the "scroll to top" button
+      const backToTopButton = document.querySelector(".back-to-top");
+      backToTopButton.addEventListener("click", scrollToTop);
+
+      // Add an event listener to show/hide the button based on scroll position
+      window.addEventListener("scroll", () => {
+        if (document.documentElement.scrollTop > 100) {
+          backToTopButton.style.display = "block";
+        } else {
+          backToTopButton.style.display = "none";
+        }
+      });
+    
+
