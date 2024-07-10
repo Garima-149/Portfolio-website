@@ -49,8 +49,8 @@ body {
   text-align: center;
   line-height: 1;
   font-size: 44px;
-  right:10rem;
-  bottom:1rem;
+  left:90rem;
+  bottom:3rem;
   transition: background-color 0.3s;
   border-radius: 0.2em;
   /* Change 'background' to 'background-color' */
@@ -67,7 +67,7 @@ body {
 }
 
 .back-to-top i:hover {
-  color: gray;
+  color: black;
 }
 
 .h3 {
