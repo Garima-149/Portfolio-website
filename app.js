@@ -84,7 +84,7 @@ setInterval(nextSlide, 2000); // Change slide every 3 seconds
       function scrollToTop() {
         window.scrollTo({
           top: 0,
-          behavior: "instant",
+          behavior: "smooth",
         });
       }
 
