@@ -39,6 +39,37 @@ body {
     color: cyan;
 }
 
+.back-to-top {
+  position: fixed;
+  display: none;
+  background-color: #002e5f;
+  color: #ffffff;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  line-height: 1;
+  font-size: 44px;
+  left:10rem;
+  bottom:1rem;
+  transition: background-color 0.3s;
+  border-radius: 0.2em;
+  /* Change 'background' to 'background-color' */
+  z-index: 9;
+}
+
+.back-to-top i {
+  color: #ffffff;
+}
+
+/* Add hover effect to the background color */
+.back-to-top:hover {
+  background-color: blue;
+}
+
+.back-to-top i:hover {
+  color: #ffffff;
+}
+
 .h3 {
     color: white;
     font-size: 34px;
