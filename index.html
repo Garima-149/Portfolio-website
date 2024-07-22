@@ -252,7 +252,7 @@
                 if (width >= 100) {
                     clearInterval(interval);
                 } else {
-                    width++;
+                    width+=2;
                     progressBar.style.width = width + '%';
                     progressBar.setAttribute('aria-valuenow', width);
                     progressBar.innerHTML = width + '%';
