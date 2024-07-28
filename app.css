@@ -63,11 +63,11 @@ body {
 
 /* Add hover effect to the background color */
 .back-to-top:hover {
-  background-color: black;
+  background-color: gray;
 }
 
 .back-to-top i:hover {
-  color: black;
+  color: white;
 }
 
 .h3 {
@@ -385,7 +385,7 @@ img.slide {
 
         /* Works on Chrome, Safari, and Edge */
   ::-webkit-scrollbar {
-    width: 6px; /* Adjust scrollbar width */
+    width: 10px; /* Adjust scrollbar width */
    }
 
    ::-webkit-scrollbar-track {
