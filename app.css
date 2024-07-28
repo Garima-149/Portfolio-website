@@ -385,7 +385,7 @@ img.slide {
 
         /* Works on Chrome, Safari, and Edge */
   ::-webkit-scrollbar {
-    width: 12px; /* Adjust scrollbar width */
+    width: 6px; /* Adjust scrollbar width */
    }
 
    ::-webkit-scrollbar-track {
