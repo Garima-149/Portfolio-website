@@ -403,18 +403,7 @@ img.slide {
        background: #555; /* Scrollbar thumb hover color */
    }
 
-/* Firefox */
-* {
-  scrollbar-width: thin;
-  scrollbar-color: #888 #4352d6;
-}
 
-/* Custom horizontal scrollbar for Firefox */
-.horizontal-scroll {
-  overflow-x: auto;
-  scrollbar-color: #888 #4352d6;
-  scrollbar-width: thin;
-}
 .circle {
     z-index: 10000;
     width: 20px;
