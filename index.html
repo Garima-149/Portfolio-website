@@ -12,7 +12,7 @@
     <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
     <style>
         .progress {
-            height: 6px;
+            height: 3px;
             border-radius: 0px;
             background-color: cyan;
             font-size: 0rem;
@@ -252,7 +252,7 @@
                 if (width >= 100) {
                     clearInterval(interval);
                 } else {
-                    width+=2;
+                    width+=4;
                     progressBar.style.width = width + '%';
                     progressBar.setAttribute('aria-valuenow', width);
                     progressBar.innerHTML = width + '%';
